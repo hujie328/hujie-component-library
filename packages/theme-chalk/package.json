@@ -1,0 +1,11 @@
+{
+  "name": "@hujie/theme-chalk",
+  "version": "0.1.0",
+  "description": "Theme styles for Hujie components",
+  "type": "module",
+  "main": "src/index.scss",
+  "module": "src/index.scss",
+  "sideEffects": [
+    "**/*.scss"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@hujie/components",
+  "version": "0.1.0",
+  "description": "Hujie component implementations",
+  "type": "module",
+  "main": "index.ts",
+  "module": "index.ts",
+  "types": "index.ts",
+  "sideEffects": [
+    "**/*.scss"
+  ],
+  "dependencies": {
+    "@hujie/utils": "workspace:*"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0",
+    "echarts": "^6.0.0",
+    "highcharts": "^11.4.8"
+  }
+}
